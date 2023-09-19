@@ -1,14 +1,14 @@
 {
-      "name": "𝄟ॐ❥𝗔𝗟𝗢𝗡𝗘🍷𝗥𝗢𝗕𝗢𝗧⏤͟͟͞❥͜͡𝄟⃟🥀",
+      "name": "𝄟ॐ❥𝗫𝗗🍷𝗥𝗢𝗕𝗢𝗧𝄟⃟🥀",
       "description": "𝐓𝐆 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 𝐑𝐎𝐁𝐎𝐓.",
-      "logo": "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+      "logo": "https://graph.org/file/97ec679cd7e3e146cd230.jpg",
       "keywords": [
          "telegram",
          "modular",
          "group",
          "manager"
       ],   
-   "repository": "https://github.com/AloneXBot/AloneRobot",
+   "repository": "https://github.com/ROCKS143014/MANNAGERBOT",
    "stack": "heroku-22",
    "addons": [
       {
@@ -60,12 +60,12 @@
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
+         "value": ""
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit.",
          "required": true,
-         "value": "AlonesHeaven"
+         "value": "XD_NETWORKS"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
