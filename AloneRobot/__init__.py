@@ -145,16 +145,16 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(6079943111)
-DEV_USERS.add(6079943111)
-DEV_USERS.add(6079943111)
-DEV_USERS.add(6079943111)
+DEV_USERS.add(6545714937)
+DEV_USERS.add(6545714937)
+DEV_USERS.add(6545714937)
+DEV_USERS.add(6545714937)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("Alone", API_ID, API_HASH)
+telethn = TelegramClient("ROCKY", API_ID, API_HASH)
 
-pbot = Client("AloneRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("MANNAGERBOT", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
