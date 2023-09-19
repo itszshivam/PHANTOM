@@ -400,7 +400,7 @@ sᴏᴍᴇᴛɪᴍᴇs, ʏᴏᴜ ᴊᴜsᴛ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ sᴏᴍ
 *ᴀᴅᴍɪɴ ᴏɴʟʏ:*
  ❍ /ᴀʟʟᴏᴡᴄᴏɴɴᴇᴄᴛ <ʏᴇs/ɴᴏ>: ᴀʟʟᴏᴡ ᴀ ᴜsᴇʀ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴀ ᴄʜᴀᴛ
  
- ☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+ ☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """
 
 CONNECT_CHAT_HANDLER = CommandHandler("connect", connect_chat, pass_args=True)

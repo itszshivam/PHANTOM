@@ -10,11 +10,11 @@ from telethon import __version__ as tver
 from AloneRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://graph.org/file/db758905c11768d49f8ee.jpg",
+    "https://graph.org/file/267b3e1eadebdc53e09fb.jpg",
+    "https://graph.org/file/578ea7d8ca217a7817645.jpg",
+    "https://graph.org/file/97ec679cd7e3e146cd230.jpg",
+    "https://graph.org/file/90c3458d31d6fe50567f6.jpg",
 ]
 
 Alone = [
@@ -30,7 +30,7 @@ Alone = [
     ],
 ]
 
-lol = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
+lol = "https://graph.org/file/90c3458d31d6fe50567f6.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -38,13 +38,25 @@ async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
     await asyncio.sleep(0.5)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..😇")
     await asyncio.sleep(0.5)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ......")
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ...❤")
     await asyncio.sleep(0.5)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ....💖")
     await asyncio.sleep(0.5)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ......")
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ.....💞")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ......🥵")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ.......🥶")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ.........😎")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..........✨")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ...........📿")
+    await asyncio.sleep(0.5)
+    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ............🥀")
     await accha.delete()
     await asyncio.sleep(0.5)
     umm = await m.reply_sticker(
@@ -54,10 +66,10 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.8)
     await m.reply_photo(
         lol,
-        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝗔𝗟𝗢𝗡𝗘 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
+        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝗫𝗗 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
    ╔═════ஜ۩۞۩ஜ════╗
 
-   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗔𝗟𝗢𝗡𝗘](https://t.me/ALONE_WAS_BOT)♨️
+   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗥𝗢𝗖𝗞𝗬](https://t.me/ROCKY_ISS_BACK)♨️
 
    ╚═════ஜ۩۞۩ஜ════╝""",
         reply_markup=InlineKeyboardMarkup(Alone),
@@ -68,4 +80,4 @@ __help__ = """
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆"""
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆"""

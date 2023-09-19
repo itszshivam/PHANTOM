@@ -7,7 +7,7 @@ from AloneRobot.utils.errors import capture_err
 __help__ = """
 » /webss *:* sᴇɴᴅs ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴜʀʟ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """
 __mod_name__ = "⚡Wᴇʙsʜᴏᴛ⚡"
 

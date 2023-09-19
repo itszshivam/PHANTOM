@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from AloneRobot import OWNER_ID, dispatcher
 from AloneRobot import pbot as client
 
-Alone = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
+Alone = "https://graph.org/file/db758905c11768d49f8ee.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -20,20 +20,20 @@ async def repo(client, message):
 
 ╔═════ஜ۩۞۩ஜ════╗
 
-♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗔𝗟𝗢𝗡𝗘](https://t.me/ALONE_WAS_BOT)♨️
+♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗥𝗢𝗖𝗞𝗬](https://t.me/ROCKY_ISS_BACK)♨️
   
 ╚═════ஜ۩۞۩ஜ════╝
 
-**[𝗔𝗟𝗢𝗡𝗘 𝗥𝗢𝗕𝗢𝗧](t.me/{dispatcher.bot.username}) sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**[𝗫𝗗 𝗥𝗢𝗕𝗢𝗧](t.me/{dispatcher.bot.username}) sᴏᴜʀᴄᴇ ɪs ɴᴏᴛ ᴩᴜʙʟɪᴄ ʙᴜᴛ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ᴍʏ ᴏᴡɴᴇʀ ғᴏʀ sᴏᴜʀᴄᴇ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "•ᴀʟᴏɴᴇ ᴍᴜꜱɪᴄ•", url="https://github.com/TeamAloneOp/AloneX/fork"
+                        "•ᴏᴡɴᴇʀ•", url="https://t.me/ROCKY_ISS_BACK"
                     ),
                     InlineKeyboardButton(
-                        "•ᴀʟᴏɴᴇ ʀᴏʙᴏᴛ•", url="https://github.com/TeamAloneOp/AloneRobot/fork"
+                        "•xᴅ•", url="https://t.me/XD_NETWORKS"
                     ),
                 ]
             ]

@@ -145,7 +145,7 @@ __help__ = """
 /quote :- ᴡʀɪᴛᴇ ǫᴜᴏᴛᴇs
 /animequotes :- ᴡʀɪᴛᴇ ᴀɴɪᴍᴇǫᴜᴏᴛᴇs
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
  """
 
 __command_list__ = [

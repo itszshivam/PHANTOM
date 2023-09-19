@@ -80,7 +80,7 @@ Choose couples in your chat
 
  ❍ /couple *:* Choose 2 users and send their name as couples in your chat.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """
 
 __mod_name__ = "♨️Cᴏᴜᴘʟᴇ♨️"

@@ -274,5 +274,5 @@ __help__ = """
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse |pp |grs: Does a reverse image search of the media which it was replied to.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """

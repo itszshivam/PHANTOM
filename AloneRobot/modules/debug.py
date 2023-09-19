@@ -71,6 +71,6 @@ __help__ = """
 /logs    ᴛᴏ ɢᴇᴛ ʜᴇʀᴜᴋᴏ ʟᴏɢs
 /debug ᴛᴏ ᴏɴ / ᴏғғ ᴅᴇʙᴜɢ 
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆"""
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆"""
 __command_list__ = ["debug"]
 __handlers__ = [DEBUG_HANDLER]

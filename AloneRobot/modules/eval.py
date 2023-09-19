@@ -141,5 +141,5 @@ __help__ = """
 ★ /ex :-  to execute code
 ★ /clear :- to run clear cmd
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """

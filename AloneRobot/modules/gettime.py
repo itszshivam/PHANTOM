@@ -99,7 +99,7 @@ __help__ = """
 
 💡 ᴇx:- /time ɪɴ *:* ɪᴛ ᴡɪʟʟ sʜᴏᴡs ɪɴᴅɪᴀɴ ᴄᴜʀʀᴇɴᴛ ᴛɪᴍᴇ ᴀɴᴅ ᴅᴀᴛᴇ..
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """
 
 TIME_HANDLER = DisableAbleCommandHandler("time", gettime)

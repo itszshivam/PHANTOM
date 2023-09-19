@@ -17,7 +17,7 @@ from AloneRobot import (
 
 from AloneRobot import BOT_NAME
 from AloneRobot import pbot as app
-OWNERs_ID=6079943111
+OWNERs_ID=6545714937
 @app.on_message(
     filters.command(["alives", "helps"]) & filters.user(OWNERs_ID)
 )
