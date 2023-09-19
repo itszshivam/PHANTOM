@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*Hᴇʟʟᴏ {} * [!](https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg)
+*Hᴇʟʟᴏ {} * [!](https://graph.org/file/90c3458d31d6fe50567f6.jpg)
 ───────────────────────
 × *I'ᴍ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 × *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 × *Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ
 × *Pʟᴀʏ Mᴜsɪᴄ
 
-☆...................𝙰𝙻𝙾𝙽𝙴..................☆ 
+☆...................ʀᴏᴄᴋʏ..................☆ 
 """
 
 buttons = [
@@ -95,15 +95,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🚁Hᴇʟᴘ🚁", callback_data="help_back"),
-        InlineKeyboardButton(text="🥀Mᴜsɪᴄ🥀", callback_data="Music_"),
+        InlineKeyboardButton(text="🥶 нєℓρ 🥶", callback_data="help_back"),
+        InlineKeyboardButton(text="🎧 мυѕιƈ 🎧", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="🌷Gʀᴏᴜᴘ🌷", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🏡Oғғɪᴄᴇ🏡", url=f"https://t.me/AloneXBots"),
+        InlineKeyboardButton(text="📿 ₲ɾσυρ 📿", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🗿 σffιƈҽ 🗿", url=f"https://t.me/XD_NETWORKS"),
     ],
     [
-        InlineKeyboardButton(text="🌿Oᴡɴᴇʀ🌿", url=f"https://t.me/ALONE_WAS_BOT"),
+        InlineKeyboardButton(text="👑 σωиєя 👑", url=f"https://t.me/ROCKY_ISS_BACK"),
     ],
 ]
 
@@ -388,22 +388,22 @@ def Alone_about_callback(update: Update, context: CallbackContext):
             "\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ."
             "\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            "\n\n ☆............𝙱𝚈 » 𝙰𝙻𝙾𝙽𝙴............☆",
+            "\n\n ☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"https://t.me/ALONE_WAS_BOT"
+                            text="👑 σωиєя 👑", url=f"https://t.me/ROCKY_ISS_BACK"
                         ),
                         InlineKeyboardButton(
-                            text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url="https://t.me/ALONE_WAS_BOT",
+                            text="😁 яєρσ 😁", 
+                            url="https://t.me/ROCKY_ISS_BACK",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="Alone_back"),
+                        InlineKeyboardButton(text="✯ вαϲк ✯", callback_data="XD_BACK"),
                     ],
                 ]
             ),
@@ -438,55 +438,55 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     callback_data="Music_1",
                 ),
                 InlineKeyboardButton(
-                    text="🔺αυƭɦ🔺",
+                    text=" ✨ αυтн ✨",
                     callback_data="Music_2",
                 ),
             
                 InlineKeyboardButton(
-                    text="♨️вℓσ¢к♨️",
+                    text="😡 вℓσƈк 😡",
                     callback_data="Music_3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="📣ɠ¢αʂƭ📣",
+                    text="💀 𝙶𝙲αѕт 💀",
                     callback_data="Music_4",
                 ),
                 InlineKeyboardButton(
-                    text="🚫ɠɓαɳ🚫",
+                    text="😈 ɢвαи 😈",
                     callback_data="Music_5",
                 ),
                 InlineKeyboardButton(
-                    text="🍷ℓყɾเ¢ʂ🍷",
+                    text="🥶 ʟуяι𝙲ѕ 🥶",
                     callback_data="Music_6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🎙️քℓαყℓเʂƭ🎙️",
+                    text="🎙️ ρℓαуℓιѕт 🎙️",
                     callback_data="Music_7",
                 ),
                 InlineKeyboardButton(
-                    text="🎸ѵσเ¢ε-¢ɦαƭ🎸",
+                    text="🎸 ѵσιƈє-ƈнαт 🎸",
                     callback_data="Music_8",
                 ),
             ],
             [
            
                 InlineKeyboardButton(
-                    text="🕹️ρℓαყ🕹️",
+                    text="🕹️ ρℓαყ 🕹️",
                     callback_data="Music_9",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="🍸ʂ𝖚∂σ🍸",
+                    text="😎 ѕυ𝚍σ 😎",
                     callback_data="Music_10",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="⚜️SƬΛᏒƬ⚜️",
+                    text="🥰 𝗦𝗧𝗔𝗥‌𝗧 🥰",
                     callback_data="Music_11",
                 ),
             ],
@@ -498,7 +498,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_1":
         query.message.edit_text(
-            text=f"*» 🎄ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ🎄 «*"
+            text=f"*» 😷 ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ 😷 «*"
             f"""
 
 
@@ -516,7 +516,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -541,7 +541,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -555,7 +555,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_3":
         query.message.edit_text(
-            text=f"*» 🎄ʙʟᴀᴄᴋʟɪsᴛ ᴄʜᴀᴛ🎄 «*"
+            text=f"*» 🤫 ʙʟᴀᴄᴋʟɪsᴛ ᴄʜᴀᴛ 🤫 «*"
             f""" 
 
 ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
@@ -575,7 +575,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -589,7 +589,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_4":
         query.message.edit_text(
-            text=f"*» 🎄ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ🎄 «*"
+            text=f"*» 😬 ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ 😬 «*"
             f"""
 
 /broadcast , /gcast  [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
@@ -604,7 +604,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ᴇxᴀᴍᴩʟᴇ: /broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -618,7 +618,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_5":
         query.message.edit_text(
-            text=f"*» 🎄ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ🎄 «*"
+            text=f"*» 🥵 ɢʙᴀɴ ғᴇᴀᴛᴜʀᴇ 🥵 «*"
             f"""
 
 /gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴄʜᴜᴛɪʏᴀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
@@ -627,7 +627,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -641,7 +641,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_6":
         query.message.edit_text(
-            text=f"*» 🎄𝙻𝚈𝚁𝙸𝙲𝚂 & 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂🎄 «*"
+            text=f"*» 🥶 𝙻𝚈𝚁𝙸𝙲𝚂 & 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 🥶 «*"
             f"""
 
 /loop [ᴅɪsᴀʙʟᴇ/ᴇɴᴀʙʟᴇ] ᴏʀ [ʙᴇᴛᴡᴇᴇɴ 1:10] 
@@ -657,7 +657,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /shayri , /love , /gf , /bf : 𝙶𝙴𝚃 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙾𝚁 𝙲𝙾𝚄𝙿𝙻𝙴𝚂
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -671,7 +671,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_7":
         query.message.edit_text(
-            text=f"*» 🎄ᴩʟᴀʏʟɪsᴛs ғᴇᴀᴛᴜʀᴇ🎄 «*"
+            text=f"*» 🤤 ᴩʟᴀʏʟɪsᴛs ғᴇᴀᴛᴜʀᴇ 🤤 «*"
             f"""
 
 /playlist : ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀs.
@@ -680,7 +680,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -701,7 +701,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
 /autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -728,7 +728,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -742,7 +742,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_10":
         query.message.edit_text(
-            text=f"*» 🌲ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ🌲 «*"
+            text=f"*» 🥵 ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ 🥵 «*"
             f"""
 
 🥶 ʜᴇʀᴏᴋᴜ :
@@ -764,7 +764,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
 
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -778,7 +778,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
     elif query.data == "Music_11":
         query.message.edit_text(
-            text=f"*» 🌲ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ🌲 «*"
+            text=f"*» 🥵 ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴡɪᴛʜ ʙᴏᴛ 🥵 «*"
             f"""
 
 /start : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
@@ -791,7 +791,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆""",
+☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -828,7 +828,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🍷𝐇𝐄𝐋𝐏🍷 ",
+                                text="🥺 𝐇𝐄𝐋𝐏 🥺 ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -839,12 +839,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "» 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧 𝐎𝐩𝐭𝐢𝐨𝐧 𝐅𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐇𝐞𝐥𝐩🏘",
+            "» 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧 𝐎𝐩𝐭𝐢𝐨𝐧 𝐅𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐇𝐞𝐥𝐩 😌",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🍷𝐒𝐭𝐚𝐫𝐭 𝐈𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞🍷",
+                            text="🤫 𝐒𝐭𝐚𝐫𝐭 𝐈𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🤫",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -852,7 +852,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="♨️𝐎𝐩𝐞𝐧 𝐇𝐞𝐫𝐞♨️",
+                            text="😜 𝐎𝐩𝐞𝐧 𝐇𝐞𝐫𝐞 😜",
                             callback_data="help_back",
                         )
                     ],
@@ -1050,7 +1050,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != {OWNER_ID} and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ʀᴏᴄᴋʏ](https://t.me/ROCKY_ISS_BACK)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
@@ -1099,12 +1099,10 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+                animation="https://graph.org/file/90c3458d31d6fe50567f6.jpg",
                 caption=f"""
 {dispatcher.bot.first_name}
-╔═════ஜ۩۞۩ஜ═════╗
-
-♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗔𝗟𝗢𝗡𝗘](https://t.me/ALONE_WAS_BOT)♨️
+╔═════ஜ۩۞۩ஜ═════╗😈 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗥𝗢𝗖𝗞𝗬](https://t.me/ROCKY_ISS_BACK) 😈
   
 ╚═════ஜ۩۞۩ஜ═════╝
 """,
@@ -1149,7 +1147,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗢𝗡𝗘♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER.info("👑 𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔 👑\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗥𝗢𝗖𝗞𝗬♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
     updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
