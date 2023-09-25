@@ -70,10 +70,6 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
-PM_START_TEX = """
-🍷𝐖𝐞𝐥𝐜𝐨𝐦𝐞 `{}`, 🍷 
-"""
-
 
 PM_START_TEXT = """ 
 *𝐇єу* {}, 🥀
@@ -119,10 +115,10 @@ HELP_STRINGS = f"""
 🌷𝐀ʟʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐂ᴀɴ 𝐁ᴇ 𝐔sᴇᴅ 𝐖ɪᴛʜ /🌷
 """
 
-DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
-  ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
+DONATE_STRING = """𝐇ᴇʏ 𝐃ᴜᴅᴇ,
+  𝐈 𝐀м 𝐒ᴏ 𝐆ʟᴀᴅ 𝐓ᴏ 𝐇ᴇᴀʀ 𝐓ʜᴀᴛ 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐓ᴏ 𝐃ᴏɴᴀᴛᴇ 𝐔s.. 𝐈 𝐖ɪʟʟ 𝐁ᴇ 𝐕ᴇʀʏ 𝐓ʜᴀɴᴋғᴜʟ 𝐅ᴏʀ 𝐓ʜɪs😍
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"tg://user?id={OWNER_ID}") ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+𝐃ᴜᴅᴇ, 𝐘ᴏᴜ 𝐂ᴀɴ 𝐃ɪʀᴇᴄᴛʟʏ 𝐂ᴏɴᴛᴀᴄᴛ 𝐌ʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](f"tg://user?id={OWNER_ID}") 𝐅ᴏʀ 𝐃ᴏɴᴀᴛɪɴɢ 𝐎ʀ 𝐘ᴏᴜ 𝐂ᴀɴ 𝐕ɪsɪᴛ 𝐌ʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](f"https://t.me/{SUPPORT_CHAT}") 𝐀ɴᴅ 𝐀sᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
