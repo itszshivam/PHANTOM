@@ -96,22 +96,29 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="😈мαηα", callback_data="help_back"),
-        ]
+        InlineKeyboardButton(text="😈𝐌αиαgємєит😈", callback_data="help_back"),
+        ],
     [
-        InlineKeyboardButton(text="🎧 мυѕιƈ 🎧", callback_data="Music_"),
-    ],
+        InlineKeyboardButton(text="🎧𝐌υѕι¢🎧", callback_data="Music_"),
+        InlineKeyboardButton(text="😎𝐒υρρσят😎", url=f"https://t.me/{SUPPORT_CHAT}"),
+        ],
     [
-        InlineKeyboardButton(text="📿 ₲ɾσυρ 📿", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🗿 σffιƈҽ 🗿", url=f"https://t.me/XD_NETWORKS"),
-    ],
-    [
-        InlineKeyboardButton(text="👑 σωиєя 👑", url=f"https://t.me/ROCKY_ISS_BACK"),
+        InlineKeyboardButton(text="💥𝐂нαииєℓ💥", url=f"https://t.me/OVER_POWEREDD"),
+        InlineKeyboardButton(text="⚠️𝐒ρє¢тяє⚠️", url=f"https://t.me/ABOUT_SPECTRE"),
     ],
 ]
 
 HELP_STRINGS = f"""
-» {BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ"""
+🌟 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐇𝐄𝐋𝐏 𝐒𝐄𝐂𝐓𝐈𝐎𝐍
+
+✨ 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐓ʜᴇ 𝐁ᴇʟᴏᴡ 𝐁ᴜᴛᴛᴏɴs 𝐅ᴏʀ 𝐌ᴏʀᴇ 𝐈ɴғᴏʀᴍᴀᴛɪᴏɴ ✨ ...
+
+🥀𝐈ғ 𝐘ᴏᴜ 𝐀ʀᴇ 𝐅ᴀᴄɪɴɢ » 𝐀ɴʏ 𝐏ʀᴏʙʟᴇᴍs ɪɴ 𝐂ᴏᴍᴍᴀɴᴅs 𝐓ʜᴇɴ ❥︎ 𝐘ᴏᴜ 𝐂ᴀɴ 𝐂ᴏɴᴛᴀᴄᴛ 𝐓ᴏ 𝐌ʏ 𝐎ᴡɴᴇʀ ❥︎ 𝐎ʀ 𝐀sᴋ ɪɴ ❥︎ 𝐎ᴜʀ 𝐒ᴜᴘᴘᴏʀᴛ 𝐂ʜᴀᴛ 💞 ...
+
+➥ 𝐓ʏᴘᴇ /help 𝐅ᴏʀ 𝐆ᴇᴛᴛɪɴɢ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴇᴄᴛɪᴏɴ..😇
+
+🌷𝐀ʟʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐂ᴀɴ 𝐁ᴇ 𝐔sᴇᴅ 𝐖ɪᴛʜ /🌷
+"""
 
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
