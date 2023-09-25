@@ -97,11 +97,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="😈𝐌αиαgємєит😈", callback_data="help_back"),
-        ],
+    ],
     [
         InlineKeyboardButton(text="🎧𝐌υѕι¢🎧", callback_data="Music_"),
         InlineKeyboardButton(text="😎𝐒υρρσят😎", url=f"https://t.me/{SUPPORT_CHAT}"),
-        ],
+    ],
     [
         InlineKeyboardButton(text="💥𝐂нαииєℓ💥", url=f"https://t.me/OVER_POWEREDD"),
         InlineKeyboardButton(text="⚠️𝐒ρє¢тяє⚠️", url=f"https://t.me/ABOUT_SPECTRE"),
