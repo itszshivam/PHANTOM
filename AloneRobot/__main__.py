@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="😈𝐌αиαgємєит😈", callback_data="help_back"),
-        InlineKeyboardButton(text="Tagger", callback_data="tagger_"),
+        InlineKeyboardButton(text="Tagger", callback_data="Tagger_"),
     ],
     [
         InlineKeyboardButton(text="🎧𝐌υѕι¢🎧", callback_data="Music_"),
@@ -844,9 +844,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
         )
 
 @run_async
-def tagger_about_callback(update: Update, context: CallbackContext):
+def Tagger_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
-    if query.data == "tagger_":
+    if query.data == "Tagger_":
         uptime = get_rAle_time((time.time() - StartTime))
         query.message.edit_text(
             text=f"*𝐇ᴇʏ,*🥀\n  *𝐓ʜɪs 𝐈s {dispatcher.bot.first_name} 𝐓αggєя 𝐒є¢тισи.*"
@@ -863,12 +863,12 @@ def tagger_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ⏎", callback_data="tagger_back"),
+                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ⏎", callback_data="Tagger_"),
                     ],
                 ]
             ),
         )
-    elif query.data == "tagger_back":
+    elif query.data == "Tagger_back":
         first_name = update.effective_user.first_name 
         query.message.edit_text(
             PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
