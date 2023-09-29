@@ -22,12 +22,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "14281524"
+         "value": "23330007"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "1a2e3f00651f595c53c36140abc5d0c9"
+         "value": "59b6d22c9fd9538b0088fb8453234bff"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -45,7 +45,7 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1001875539490"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -55,22 +55,22 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "6079943111"
+         "value": "5174492401"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": "https://graph.org/file/90c3458d31d6fe50567f6.jpg"
+         "value": "https://telegra.ph/file/c7de0db7c2776115d3a43.jpg"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit.",
          "required": true,
-         "value": "XD_NETWORKS"
+         "value": "Fun_here"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": ""
+         "value": "6574191885:AAEbZy0AOgPPRD5OsbRpUB34Pm51rz2YwYc"
       }
    }
 }
