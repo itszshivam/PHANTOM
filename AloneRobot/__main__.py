@@ -845,7 +845,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
     elif query.data == "Tagger_1":
         query.message.edit_text(
-            text=f"Welcome to Tagger section",
+            text=f"Welcome to Tagger section"
             f"""
 
 /utag : Tag.
@@ -854,7 +854,8 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /htag : Tag.
 /vctag : Tag.
 /gmtag : Tag.
-/gntag : Tag.""",
+/gntag : Tag.
+""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -864,7 +865,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     ]
                 ]
             ),
-        ),
+        )
         
 @run_async
 def get_help(update: Update, context: CallbackContext):
