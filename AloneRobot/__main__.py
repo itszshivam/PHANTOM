@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="😈𝐌αиαgємєит😈", callback_data="help_back"),
-        InlineKeyboardButton(text="Tagger", callback_data="Tagger_"),
+        InlineKeyboardButton(text="Tagger", callback_data="Tagger_1"),
     ],
     [
         InlineKeyboardButton(text="🎧𝐌υѕι¢🎧", callback_data="Music_"),
@@ -843,41 +843,29 @@ def Music_about_callback(update: Update, context: CallbackContext):
             disable_web_page_preview=False,
         )
 
-@run_async
-def Tagger_about_callback(update: Update, context: CallbackContext):
-    query = update.callback_query
-    if query.data == "Tagger_":
-        uptime = get_rAle_time((time.time() - StartTime))
+    elif query.data == "Tagger_1":
         query.message.edit_text(
-            text=f"*𝐇ᴇʏ,*🥀\n  *𝐓ʜɪs 𝐈s {dispatcher.bot.first_name} 𝐓αggєя 𝐒є¢тισи.*"
-            "\n\n➲ /utag: 𝐓ᴏ 𝐓ᴀɢ 𝐀ʟʟ 𝐓ʜᴇ 𝐔sᴇʀs."
-            "\n➲ /atag: 𝐓 ᴛᴀɢ ᴀʟʟ ᴛʜᴇ ᴀᴅᴍɪɴs."
-            "\n➲ /etag: ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ."
-            "\n➲ /htag: ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ."
-            "\n➲ /vctag: ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ."
-            "\n➲ /gmtag: 𝐓𝐨 ᴛᴀɢ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴡɪᴛʜ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ᴍᴇssᴀɢᴇ."
-            "\n➲ /gntag: ᴛᴏ ᴛᴀɢ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴡɪᴛʜ ɢᴏᴏᴅ ɴɪɢʜᴛ ᴍᴇssᴀɢᴇ,"
-            "\n\n ☆............𝙱𝚈 » [ʀᴏᴄʟʏ](https://t.me/ROCKY_ISS_BACK)............☆",
+            text=f"Welcome to Tagger section",
+            f"""
+
+/utag : Tag.
+/atag : Tag.
+/etag : Tag.
+/htag : Tag.
+/vctag : Tag.
+/gmtag : Tag.
+/gntag : Tag.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ⏎", callback_data="Tagger_"),
-                    ],
+                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ⏎", callback_data="Alone_back"),
+                    ]
                 ]
             ),
         )
-    elif query.data == "Tagger_back":
-        first_name = update.effective_user.first_name 
-        query.message.edit_text(
-            PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
-            reply_markup=InlineKeyboardMarkup(buttons),
-            parse_mode=ParseMode.MARKDOWN,
-            timeout=60,
-            disable_web_page_preview=False,
-        )
-        
+
 @run_async
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
